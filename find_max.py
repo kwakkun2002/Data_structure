@@ -22,6 +22,5 @@ def find_max_iterative(l):
 
 if __name__ == "__main__":
     l = list(map(int, input("리스트 입력 : ex 1,2,3 => ").split(",")))
-    print(l)
     print(find_max_recursive(l))
     print(find_max_iterative(l))
